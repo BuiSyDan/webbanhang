@@ -11,28 +11,28 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
-        <img src="{% static 'app/images/banner/b1.jpg' %}" class="d-block w-100" alt="...">
+        <img src="{% static 'app/images/banner/b1.jpg' %}" class="d-block w-100" alt="..." >
         <div class="carousel-caption d-none d-md-block">
           <h5>Sữa tươi</h5>
           <p>Some representative placeholder content for the first slide.</p>
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <img src="{% static 'app/images/banner/b2.jpg' %}" class="d-block w-100" alt="...">
+        <img src="{% static 'app/images/banner/b2.jpg' %}" class="d-block w-100" alt="..." >
         <div class="carousel-caption d-none d-md-block">
           <h5>Sữa bột</h5>
           <p>Some representative placeholder content for the second slide.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="{% static 'app/images/banner/b3.jpg' %}" class="d-block w-100" alt="...">
+        <img src="{% static 'app/images/banner/b3.jpg' %}" class="d-block w-100" alt="..." >
         <div class="carousel-caption d-none d-md-block">
           <h5>Sữa uống liền</h5>
           <p>Some representative placeholder content for the third slide.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="{% static 'app/images/banner/b4.jpg' %}" class="d-block w-100" alt="...">
+        <img src="{% static 'app/images/banner/b4.jpg' %}" class="d-block w-100" alt="..." >
         <div class="carousel-caption d-none d-md-block">
           <h5>Sữa người lớn</h5>
           <p>Some representative placeholder content for the third slide.</p>
@@ -51,5 +51,85 @@
 {% endblock banner_slider %}
 
 {% block main-content %}
-<h1>Welcome to my site</h1>
+    <div class="row">
+        <div class="col-lg-4">          
+            <img class="thumbnail" src="{% static 'app/images/cow-ghee.png' %}">
+            <div class="box-element product">  
+                <h6><strong>Sữa nho</strong></h6>
+                <hr>
+                
+
+                <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+                <a class="btn btn-outline-success" href="">Xem</a>
+                <h3 style="display: inline-block; float: right"><strong>200.000VND</strong></h3>
+            </div>   
+        </div>
+
+        <div class="col-lg-4">          
+            <img class="thumbnail" src="{% static 'app/images/cow-milk.png' %}">
+            <div class="box-element product">  
+                <h6><strong>Sữa dâu</strong></h6>
+                <hr>
+                
+
+                <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+                <a class="btn btn-outline-success" href="">Xem</a>
+                <h3 style="display: inline-block; float: right"><strong>200.000VND</strong></h3>
+            </div>   
+        </div>
+
+        <div class="col-lg-4">          
+            <img class="thumbnail" src="{% static 'app/images/curd-premium.png' %}">
+            <div class="box-element product">  
+                <h6><strong>Sữa trắng</strong></h6>
+                <hr>
+                
+
+                <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+                <a class="btn btn-outline-success" href="">Xem</a>
+                <h3 style="display: inline-block; float: right"><strong>200.000VND</strong></h3>
+            </div>   
+        </div>
+    </div>    
+
+    <div class="row">
+        <div class="col-lg-4">          
+            <img class="thumbnail" src="{% static 'app/images/cow-ghee.png' %}">
+            <div class="box-element product">  
+                <h6><strong>Sữa nho</strong></h6>
+                <hr>
+                
+
+                <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+                <a class="btn btn-outline-success" href="">Xem</a>
+                <h3 style="display: inline-block; float: right"><strong>200.000VND</strong></h3>
+            </div>   
+        </div>
+
+        <div class="col-lg-4">          
+            <img class="thumbnail" src="{% static 'app/images/cow-milk.png' %}">
+            <div class="box-element product">  
+                <h6><strong>Sữa dâu</strong></h6>
+                <hr>
+                
+
+                <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+                <a class="btn btn-outline-success" href="">Xem</a>
+                <h3 style="display: inline-block; float: right"><strong>200.000VND</strong></h3>
+            </div>   
+        </div>
+
+        <div class="col-lg-4">          
+            <img class="thumbnail" src="{% static 'app/images/curd-premium.png' %}">
+            <div class="box-element product">  
+                <h6><strong>Sữa trắng</strong></h6>
+                <hr>
+                
+
+                <button class="btn btn-outline-secondary add-btn">Thêm vào giỏ hàng</button>
+                <a class="btn btn-outline-success" href="">Xem</a>
+                <h3 style="display: inline-block; float: right"><strong>200.000VND</strong></h3>
+            </div>   
+        </div>
+    </div>    
 {% endblock main-content %}
